@@ -73,7 +73,7 @@ std::string infx2pstfx(std::string inf) {
     }
   }
   while (!stack1.isEmpty()) {
-    post.push_back(t.get());
+    post.push_back(stack1.get());
     post.push_back(prob);
     stack1.pop();
   }
